@@ -1,0 +1,73 @@
+.recipe-container {
+  background-color: rgb(242, 240, 240);
+  width: 30%;
+  min-height: 500px;
+  margin: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(140, 140, 140);
+}
+
+.image-container {
+  width: 100%;
+  height: 300px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.recipe-content {
+  padding: 20px;
+}
+
+.initial-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.initial-info h2 {
+  font-size: 1.3rem;
+  width: 70%;
+}
+
+.type-of-food {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.type-of-food div {
+  display: flex;
+}
+
+.type-of-food div :nth-child(1) {
+  margin-right: 20px;
+}
+
+.ingridients {
+  margin-top: 20px;
+}
+
+.ingridients h3 {
+  margin-bottom: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ingridients ul {
+  list-style: none;
+}
+
+.ingridients ul li {
+  margin: 15px 0;
+  font-family: sans-serif;
+}
